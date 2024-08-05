@@ -1,0 +1,9 @@
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #40291C;
+}
