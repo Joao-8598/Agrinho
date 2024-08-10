@@ -1,0 +1,89 @@
+body {
+    background-image: url(../img/fazendomorango.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #261610;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+#envie {
+    box-sizing: border-box;
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.formulario {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#nome, #email, #telefone, #mensagem, #curriculo {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: #014034;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem; 
+}
+
+button:hover {
+    background: #01261F;
+}
+
+@media (max-width: 768px) {
+    #envie {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    .formulario {
+        padding: 1.5rem;
+    }
+
+    button {
+        padding: 0.8rem 1.2rem;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #envie {
+        padding: 1rem;
+        max-width: 100%;
+    }
+
+    .formulario {
+        padding: 1rem;
+    }
+
+    button {
+        padding: 1rem 1rem;
+        font-size: 1.2rem;
+    }
+}

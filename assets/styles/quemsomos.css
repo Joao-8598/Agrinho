@@ -1,0 +1,43 @@
+body {
+    background-image: url(../img/campo2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #261610;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #40291C;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        padding: 15px;
+    }
+
+    .titulo h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        padding: 10px;
+    }
+
+    .titulo h1 {
+        font-size: 1.5rem;
+    }
+}
