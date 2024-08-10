@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/campo2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #261610;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #40291C;
+}
+
+section li, p{
+    text-indent: 1vh;
+}
